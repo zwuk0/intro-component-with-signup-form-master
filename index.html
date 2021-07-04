@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- link-font---------------------------------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link-stylesheet---------------------------------------- -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="sub-container">
+        <div class="text-head">
+          <h1>Learn to code by watching others</h1>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+      </div>
+      <div class="sub-container">
+        <div class="banner">
+          <p><span>Try it free 7 days</span> then $20/mo. there after</p>
+        </div>
+        <form action="#">
+          <div class="input-wrap">
+            <div class="input" id="firstname-i">
+              <input
+                type="text"
+                class="form-input"
+                name="First-Name"
+                id="firstname"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="input" id="lastname-i">
+              <input
+                type="text"
+                class="form-input"
+                name="Last-Name"
+                id="lastname"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="input" id="email-i">
+              <input
+                type="text"
+                class="form-input"
+                name="Email-Address"
+                id="email"
+                placeholder="Email Address"
+              />
+            </div>
+            <div class="input" id="password-i">
+              <input
+                type="text"
+                class="form-input"
+                name="Password"
+                id="password"
+                placeholder="password"
+              />
+            </div>
+            <div class="button-wrap">
+              <button class="submit" id="submit">CLAIM YOUR FREE TRIAL</button>
+            </div>
+            <p class="form-bottom-text">
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
